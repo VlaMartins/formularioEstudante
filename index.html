@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Estudante </title>
+    <style>
+        form {
+            max-width: 50%;
+            margin: 0 auto;
+            background-color: pink;
+            padding: 1em;
+        }
+
+        input {  /* testar com input e label juntos*/
+            display: block;
+            width: 60%; 
+            height: 30px;
+            margin-left: 2em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+        }
+
+        input[type="submit"] {
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 150px;
+            height: 40px;
+            display: block;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Carteirinha do Estudante </h1>
+
+    <form action="">
+        <label for="codEst">Código de Uso: </label> 
+        <input type="number" required>
+
+        <label for="nome">Nome:</label>
+        <input type="text" required>
+
+        <label for="instituicao">Instituição de Ensino:</label>
+        <input type="text"  required>
+
+        <label for="curso">Curso:</label>
+        <input type="text" required>
+
+        <label for="serie">Série:</label>
+        <input type="text">
+
+        <label for="ensino">Ensino:</label>
+        <input type="text" >
+
+        <label for="rg">RG:</label>
+        <input type="text">
+
+        <label for="cpf">CPF:</label>
+        <input type="text" required>
+
+        <label for="datanasc">Data de Nascimento:</label>
+        <input type="date">
+
+        <label for="sexo"> Sexo: </label>
+        <input type="text">
+
+        <label for="email"> E-mail</label> 
+        <input type="email"> 
+
+        <label for="ano">Ano: </label>
+        <input type="text">
+
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
